@@ -15,7 +15,9 @@ What happened was that The British Armed Forces experienced a big cyber attack b
 Some things that could have helped prevent the UK data breach defense attack would be:
 
 Stronger authentication methods such as MFA
+
 Regular security checks
+
 Advanced threat detection systems
 
 They could have detected this by using intrusion detection systems and log in checks.
