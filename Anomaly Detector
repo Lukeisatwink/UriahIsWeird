@@ -1,0 +1,22 @@
+public class AnomalyExample {
+    public static void main(String[] args) {
+        int[] numbers = {10, 20, 30, 40, 50};
+        
+        // Anomaly: Accessing an array element out of bounds
+        try {
+            System.out.println(numbers[5]); // Index 5 is out of bounds
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.err.println("Anomalous behavior detected: " + e.getMessage());
+        }
+
+        // Anomaly: Dividing by zero
+        int numerator = 100;
+        int denominator = 0;
+        try {
+            int result = numerator / denominator; // Division by zero
+            System.out.println("Result: " + result);
+        } catch (ArithmeticException e) {
+             System.err.println("Anomalous behavior detected: " + e.getMessage());
+        }
+    }
+}
